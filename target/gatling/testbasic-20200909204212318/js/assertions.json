@@ -1,0 +1,10 @@
+{
+  "simulation": "unodatabase.TestBasic",
+  "simulationId": "testbasic",
+  "start": 1599684132318,
+  "description": "",
+  "scenarios": ["Scenario Name"],
+  "assertions": [
+
+  ]
+}

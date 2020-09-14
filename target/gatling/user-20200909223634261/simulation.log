@@ -1,0 +1,10 @@
+RUN	simulations.User	user	1599690994261	3	3.3.1
+USER	user	1	START	1599690994938	1599690994938
+REQUEST	1		request_0	1599690994956	1599690994976	OK	 
+ERROR	request_4: Failed to build request: Resource /user/0004_request.json not found 	1599690994993
+ERROR	request_5: Failed to build request: Resource /user/0005_request.json not found 	1599690994993
+REQUEST	1		request_2	1599690995003	1599690995056	OK	 
+REQUEST	1		request_3	1599690995003	1599690995092	OK	 
+REQUEST	1		request_1	1599690995002	1599690995134	OK	 
+ERROR	request_6: Failed to build request: Resource /user/0006_request.json not found 	1599691010154
+USER	user	1	END	1599690994938	1599691010165

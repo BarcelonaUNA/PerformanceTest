@@ -1,0 +1,6 @@
+RUN	simulations2.SecontTest	seconttest	1599995622519	1	3.3.1
+USER	Video Game DB - 3 calls	1	START	1599995623223	1599995623223
+REQUEST	1		Get all video games - 1st call	1599995623242	1599995627335	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	1		Get specific game	1599995632356	1599995636453	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+REQUEST	1		Get all Video games - 2nd call	1599995640969	1599995645069	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/[0:0:0:0:0:0:0:1]:8080
+USER	Video Game DB - 3 calls	1	END	1599995623223	1599995648065

@@ -1,0 +1,10 @@
+RUN	simulations.User	user	1599995087565	3	3.3.1
+USER	user	1	START	1599995088272	1599995088272
+REQUEST	1		request_0	1599995088290	1599995090326	OK	 
+ERROR	request_4: Failed to build request: Resource /user/0004_request.json not found 	1599995090343
+ERROR	request_5: Failed to build request: Resource /user/0005_request.json not found 	1599995090343
+REQUEST	1		request_1	1599995090353	1599995090717	OK	 
+REQUEST	1		request_2	1599995090354	1599995090802	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 401
+REQUEST	1		request_3	1599995090354	1599995090828	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 401
+ERROR	request_6: Failed to build request: Resource /user/0006_request.json not found 	1599995105854
+USER	user	1	END	1599995088272	1599995105869
